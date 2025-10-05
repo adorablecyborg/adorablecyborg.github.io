@@ -1,0 +1,27 @@
+# Site Specific Configuration
+title: The Community Trash
+description: A website for a faery.
+url: https://adorablecyb.org
+author: adorablecyborg
+timezone: America/Los_Angeles
+timezone_short: Pacific
+remote_theme: tajacks/lightspeed
+
+# Keywords
+# keywords: ['seo', 'key', 'words']
+
+# Styling
+sass:
+  sass_dir: _sass
+  style: expanded # compact, expanded or compressed
+
+
+# Exclusions
+exclude: [ 'README.md' ]
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-sitemap
