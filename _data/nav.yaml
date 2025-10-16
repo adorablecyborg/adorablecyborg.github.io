@@ -1,6 +1,8 @@
 - name: About
   link: /
-# - name: Posts
-#   link: /posts
-# - name: Categories
-#   link: /categories/
+- name: Posts
+  link: /posts/
+- name: Categories
+  link: /categories/
+- name: Projects
+  link: /projects/

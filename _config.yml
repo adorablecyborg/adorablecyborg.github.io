@@ -1,8 +1,8 @@
 # Site Specific Configuration
 title: The Community Trash
-description: A website for a faery.
+description: A website for a faery 🧚🏻‍♂️
 url: https://adorablecyb.org
-author: adorablecyborg
+author: Missy
 timezone: America/Los_Angeles
 timezone_short: Pacific
 remote_theme: tajacks/lightspeed
@@ -15,6 +15,20 @@ sass:
   sass_dir: _sass
   style: expanded # compact, expanded or compressed
 
+# Paginate
+pagination:
+  enabled: true
+  per_page: 7
+  sort_field: 'date'
+  sort_reverse: true
+
+# Category Paginating
+autopages:
+  enabled: true
+  categories:
+    title: 'Posts in category :cat'
+    permalink: '/category/:cat'
+    silent: false
 
 # Exclusions
 exclude: [ 'README.md', 'CNAME', '.gitignore' ]
@@ -25,3 +39,4 @@ plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-paginate-v2
