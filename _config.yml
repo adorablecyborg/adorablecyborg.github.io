@@ -1,11 +1,12 @@
 # Site Specific Configuration
 title: The Community Trash
-description: A website for a faery 🧚🏻‍♂️
+description: A website for a fae 🧚🏻‍♂️
 url: https://adorablecyb.org
 author: Missy
 timezone: America/Los_Angeles
 timezone_short: Pacific
 remote_theme: tajacks/lightspeed
+markdown: kramdown
 
 # Keywords
 # keywords: ['seo', 'key', 'words']
@@ -18,6 +19,7 @@ sass:
 # Paginate
 pagination:
   enabled: true
+  permalink: '/:num/'
   per_page: 7
   sort_field: 'date'
   sort_reverse: true
@@ -27,7 +29,6 @@ autopages:
   enabled: true
   categories:
     title: 'Posts in category :cat'
-    permalink: '/category/:cat'
     silent: false
 
 # Exclusions

@@ -1,0 +1,54 @@
+---
+layout: post
+author: the cyborg
+title: The art of social listening
+permalink: 'archived/art-of-social-listening'
+---
+
+<details>
+<summary><b>AUTHOR NOTE</b></summary>
+<i>This was originally posted on my WordPress blog, which I have deleted after migrating the blog's posts to this website in November 2025. Differences from the original are minimal and include: adding paragraphs to reduce the wall of text, rephrasing a few sentences to make more sense, adjusting text formatting, changing Twitter to Xitter because fuck Elon Musk, and adding an Author's Note about Orbit.love.</i>
+</details>
+\
+Something that's been on my mind lately is just how many companies are looking for a technical person to help them talk to their users on social media to pull insights out of their feedback. People who can do that really well, like me, aren't common, which made me realize that maybe not a lot of people truly understand the art of social listening in product management. Today I want to talk about how I do social listening; consider this a kind of sequel post to <a href="/archived/art-of-empathy">The art of empathy</a> or maybe a follow up to <a href="/archived/translating-user-feedback">how I translate feedback from users</a>. 😁\
+\
+What do I mean when I say <b>social listening</b>? Social listening is known as the process of <b>monitoring what people say</b> about you, your competitors, and other keywords you want to include <b>on social media platforms</b>. It's an organic source of feedback that typically offers candid insights from your and your competitor's users, often putting you at an advantage. I'm a special type of human who can glean insights from social listening both manually and with tooling, and excellent at convincing colleagues to listen to and act on the data I bring them.\
+\
+<b>Knowing your audience</b> is key. You'll see me harping on that a lot, and I don't mean _knowing your audience_ in the marketing sense - it's all about how they _communicate_ with each other. I stressed in <a href="/archived/translating-user-feedback">a previous blog</a> that <b>understanding how your users speak to each other</b> is probably the _most important thing_ you can learn in order to translate their feedback. I ended it by saying <b>building relationships with your colleagues</b> who will champion for you internally is key to successfully translate feedback.\
+\
+_<b>Both of these are true for social listening</b>_.\
+\
+If you are in a community management or marketing role, you _must_ have good relationships with your product and engineering colleagues for them to trust the social listening insights you bring to them. If you are a product manager doing social listening as a part of your role being customer obsessed, you'll need the skill of translating feedback to effectively articulate the data behind your users' voices. I cannot stress enough the importance of <b>understanding what people are saying</b> before you can <b>extrapolate their meanings</b>.\
+\
+Now, you will find that there is a huge difference between <b>how people speak _about_ you</b> and <b>how they speak _to_ you</b>. Community members will say one thing in a private survey while simultaneously ranting on _~social platform~_ about the opposing opinion. My style of <b>social listening includes following up with users</b> - this is where I found empathy is the most valuable skill. If you get clearance from legal/privacy teams to ask for contact information in a survey, or have a CMS that already provides that data, emailing users back based on their survey results can often improve brand perspective. The same can be said for social media.\
+\
+Several <b>in-app feedback tools</b> support <b>responding to people</b> who provide their email address, which is an amazing way to gather more information about what they sent and acts as an email communication. I trained the Microsoft Edge team on how to <b>talk to people with empathy</b> and follow privacy policies; the legal team can make things boring sometimes, but I also understand the need to protect a company from liability, _I guess_. 🙄 Trying to find out more about <b>what the person is saying</b>, through either public or private communications, goes a long way to <b>earn their trust</b> and helps you make informed decisions based on community feedback.\
+\
+The cherry on top for users is when <b>you come back to them</b> and <b>thank them</b> for the in depth conversation, then let them know what happened with their suggestion; either it was placed in the product, or maybe you are letting them know that the change won't be implemented. When I brought bad news to community members, they reacted kindly with an understanding that not everything can make it into a product and respected the fact that I went to lengths to <b>make sure they were heard</b>.\
+\
+You will need something to effectively <b>track what your users are saying</b>. There are a variety of tools out there that can help most products do this, but I _do not_ suggest anyone does social listening tracking like I was forced to. It was painfully manual and I <b>couldn't scale</b>. I used Sprinklr, like everyone else at Microsoft, but I had the "privilege" of owning listening for a product named after _a common English word_. This meant that <b>removing noise</b> from social data was _significantly_ difficult without a ton of query-tuning and metadata tagging. Even worse, Sprinklr does _not_ work well with <b>contextual sentiment</b>. Weekly I manually adjusted the sentiment labeling in Sprinklr for my owned handle. Thank the _gods_ I had very little mentions comparatively because, until I knew my community and the browser well enough, <b>that process took forever</b> to do.\
+\
+I only did this for Twitter because Reddit tracking in Sprinklr was _worse_ than its ability to contextualize sentiment; at least in my past experiences. Now that both Reddit and Xitter have restricted their APIs, I am curious to know how much it's impacted Sprinklr's functionality... or subscription fees... 🤔\
+\
+Since Reddit was one of my top focuses on the team, I tracked posts utilizing Microsft Edge's Collections feature. Daily I created a collection of the new posts in the subreddit to export the post metadata into an Excel spreadsheet that I then copied to put into _another_ spreadsheet for the team's tracking, assigning sentiment manually for these posts. Because the Edge Insider Tech Community forum was a product _group space_ owned by another team, I could get data for activity but didn't have a system that would organize the posts in a way to answer them. Instead of fighting that, I said screw it and utilized Excel for tracking forum posts.\
+\
+Yes, _<b>I really fucking did this</b>_. I pushed _incredibly_ hard to get off of this process with very little success. So, _please_ don't be like me and manually adjust sentiment while also manually logging social posts from your subreddits and forums in an Excel spreadsheet. 😭\
+\
+Instead, if you can get around the shortcomings of Sprinklr, it's not a _terrible_ tool. It works well for a lot of the things that I did not use it for, and its reporting is quite good - I had several teammates around the world who were a part of my team in Sprinklr and could pull custom reports based on what spaces I listened to all up, which reduced the need for me to do this after I helped them get set up.\
+\
+The explosion of AI since I started this blog has very likely shifted how social listening products out there are working, however there are a few tools that I suggest digging into if Sprinklr isn't quite what you are looking for. Orbit.love is an amazing open-source product that helps you see your community's "orbit". I love the play on words for this, mostly because I'm a space nerd, and would _love_ to use this product in whatever my next role is. With the ability to monitor several social platforms outside of traditional social media, and the ability for you to add in other spaces by contributing to the project, it gives you a very large picture of where your biggest fans are and where you need to nurture your community.\
+<br>
+<details>
+<summary><b>AUTHOR'S NOTE, Nov 2025</b></summary>
+<i>orbit.love no longer seems to exist, which is pretty sad. It was <a href="https://blog.postman.com/announcing-postman-has-acquired-orbit/">acquired by Postman</a> in April 2024, shortly after I started working for Nabu Casa, but now listed as part of <a href="https://jetrockets.com/portfolio/orbitlove">JetRockets' portfolio</a>. From what I can tell, this is just another open source victim of being gobbled up by the tech industry.</i> 😔
+</details>
+\
+[Hootsuite](https://www.hootsuite.com) is a very common tool used across the industry that has a lot of solid social listening features. It can help you <b>track the performance of your content</b> compared to your competitors, a very valuable insight in what kind of content works in your world of the tech industry. The last tool I like for social listening, and what my content team for Edge used, is [Brand24](https://brand24.com/). I have found that it does contextual sentiment a little better than Sprinklr does and the reporting is super detailed but easy to read. The ability to <b>easily dig into insights</b> with Brand24 is also quite nice, imo.\
+\
+But wait, _what do you do with all of this information_? If you're a community lead of some sort, you can <b>start building up your social listening strategy</b> now! Building one for social listening is just like any other feature that a product or program manager may own. First, <b>find your goals</b> when it comes to social listening in your role. This is different for each role. Mine were around CSAT, but I also tracked NPS and sentiment. If you are a feature owner, you may have different goals like sentiment or adoption/usage of your feature.\
+\
+Next, <b>find the tool that best suits _your_ needs</b>. I named only four out of the _dozens_ of tools out there based on my own experience with them but there are many others that may work better for you! Once you know the capabilities of the tool you choose, <b>figure out what terms to track</b>! It's really good practice to listen for your company and product name, your competitors, any public figures that work at your company, and keywords directly related to your industry. A little bit of fine-tuning listening queries then should now be <b>set up for success to start social listening</b> for your and your competitors' users and <b>start acting on those insights</b> you find!\
+\
+Now, I'm off to [continue my people-watching](https://www.linkedin.com/posts/missyquarry_this-whole-seven-twitters-situation-is-quite-activity-7084266577960857600-g7KG/) as we all shift from one social platform to the next, something that will very likely _outdate this entire post soon_. 😂\
+\
+-🧜🏻‍♀️🦄
